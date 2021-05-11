@@ -78,8 +78,6 @@ pub struct Block {
 	pub timestamp: U256,
 	/// Difficulty
 	pub difficulty: U256,
-	/// Nonce
-	pub nonce: H64,
 	/// Total difficulty
 	pub total_difficulty: U256,
 	/// Seal fields
@@ -125,8 +123,6 @@ pub struct Header {
 	pub logs_bloom: H2048,
 	/// Timestamp
 	pub timestamp: U256,
-	/// Nonce
-	pub nonce: H64,
 	/// Difficulty
 	pub difficulty: U256,
 	/// Seal fields
